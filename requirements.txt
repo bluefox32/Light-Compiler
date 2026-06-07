@@ -1,0 +1,30 @@
+# Matrix Authenticated Compiler - Python Dependencies
+# Python 3.8+
+
+# Core dependencies
+numpy>=1.19.0
+cryptography>=3.4
+
+# Testing and development
+pytest>=6.0.0
+pytest-cov>=2.10.0
+black>=21.0
+flake8>=3.9.0
+mypy>=0.910
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Code quality
+pylint>=2.9.0
+isort>=5.9.0
+
+# Optional: Performance monitoring
+psutil>=5.8.0
+
+# Optional: Configuration management
+python-dotenv>=0.19.0
+
+# Optional: Async support (for future versions)
+# asyncio is built-in in Python 3.8+
