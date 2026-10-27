@@ -176,9 +176,9 @@ python matrix_compiler_cryptography.py
 
 詳細なドキュメントは以下を参照してください：
 
-- **[技術仕様書](./MATRIX_COMPILER_DOCUMENTATION.md)** - アーキテクチャ・コンポーネント詳細
-- **[統合ガイド](./INTEGRATION_GUIDE.md)** - 実装パターン・最適化・トラブルシューティング
-- **[プロジェクトサマリー](./PROJECT_SUMMARY.md)** - 全体の概要・テスト実績
+- **[技術仕様書](docs/MATRIX_COMPILER_DOCUMENTATION.md)** - アーキテクチャ・コンポーネント詳細
+- **[統合ガイド](docs/INTEGRATION_GUIDE.md)** - 実装パターン・最適化・トラブルシューティング
+- **[プロジェクトサマリー](docs/PROJECT_SUMMARY.md)** - 全体の概要・テスト実績
 
 ## 🏗️ アーキテクチャ
 
@@ -378,8 +378,8 @@ master_keys = {
 
 ## 📄 関連リンク
 
-- [技術仕様書](./MATRIX_COMPILER_DOCUMENTATION.md)
-- [統合ガイド](./INTEGRATION_GUIDE.md)
+- [技術仕様書](docs/MATRIX_COMPILER_DOCUMENTATION.md)
+- [統合ガイド](docs/INTEGRATION_GUIDE.md)
 - [セキュリティガイド](./SECURITY.md)
 - [変更履歴](./CHANGELOG.md)
 
