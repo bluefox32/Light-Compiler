@@ -472,7 +472,9 @@ def demonstrate_secure_distribution():
     print("【Step 6】 Save Encrypted Package")
     print("-" * 70)
     
-    package.save('/mnt/user-data/outputs/distribution_package.bin')
+    # 修正(2026-10-29): 作成環境の絶対パスをやめ、スクリプトと同じフォルダへ保存する
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'distribution_package.bin')
+    package.save(output_path)
     
     print("✓ Package saved to: distribution_package.bin")
     print(f"✓ File size: {len(package.to_bytes())} bytes")
